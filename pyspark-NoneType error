@@ -1,0 +1,9 @@
+### pyspark报错 
+```
+TypeError: 'NoneType' object has no attribute '__getitem__'
+```
+
+###代码如下
+```
+df3.where(df3["only_org"]<>'').count()
+```
